@@ -1,0 +1,15 @@
+{
+  "name": "TEST_FILTER",
+  "criteria": [
+    {
+      "type": "TITLE",
+      "condition": "CONTAINS",
+      "compareValue": "Wasd"
+    },
+    {
+      "type": "DATE",
+      "condition": "FROM",
+      "compareValue": "24/10/2020"
+    }
+  ]
+}

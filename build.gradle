@@ -18,6 +18,8 @@ repositories {
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     implementation 'org.flywaydb:flyway-core:10.3.0'
     implementation 'org.flywaydb:flyway-database-postgresql:10.3.0'
